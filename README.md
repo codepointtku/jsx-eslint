@@ -11,13 +11,13 @@
 ## Installation
 **Run** this command in your repository
 ```bash
-$ npm install --dev @codepointtku/eslint-config-jsx
+$ npm install --dev @codepointtku/jsx-eslint
 ```
 
 ## Usage
 **Add** this line to your `.eslintrc`
 ```jsonc
 {
-  "extends": "@codepointtku/eslint-config-jsx"
+  "extends": "@codepointtku/jsx-eslint"
 }
 ```
