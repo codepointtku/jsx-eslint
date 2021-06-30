@@ -12,9 +12,12 @@
     "url": "https://github.com/codepointtku/jsx-eslint/issues"
   },
   "homepage": "https://github.com/codepointtku/jsx-eslint#readme",
+  "main": "index.json",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">=7"
   },
-  "main": "index.json",
-  "license": "MIT"
+  "eslintConfig": {
+    "extends": "./index.json"
+  }
 }
