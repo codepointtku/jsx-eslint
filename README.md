@@ -13,7 +13,7 @@
 ## Installation
 **Run** this command in your repository
 ```bash
-$ npm install --dev @codepointtku/eslint-config-jsx-eslint
+$ npm install @codepointtku/eslint-config-jsx-eslint --save-dev
 ```
 
 ## Usage
