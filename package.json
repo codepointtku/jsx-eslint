@@ -2,8 +2,11 @@
   "author": "Juuso Laakso",
   "description": "City of Turku's Eslint config file for Front-end web development",
   "name": "@codepointtku/jsx-eslint",
-  "version": "1.0.0",
-  "keywords": ["eslint", "eslintconfig"],
+  "version": "1.0.1",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codepointtku/jsx-eslint.git"
