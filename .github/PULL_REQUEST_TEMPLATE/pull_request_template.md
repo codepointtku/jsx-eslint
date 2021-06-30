@@ -12,4 +12,5 @@ Please select the correct type, and delete options that are not relevant to this
 - [] This change is a documentation update
 
 **People that worked on this**
+
 Add yourself as the assignee, and tag (@...username) others that worked on this PR.
