@@ -8,15 +8,16 @@ on:
 
 jobs:
   build:
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 14
-          registry-url: https://registry.npmjs.org/
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+  steps:
+    publish-npm:
+      needs: build
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-node@v2
+          with:
+            node-version: 14
+            registry-url: https://registry.npmjs.org/
+        - run: npm publish
+          env:
+            NODE_AUTH_TOKEN: ${{secrets.npm_token}}
