@@ -2,7 +2,7 @@
   "author": "Juuso Laakso",
   "description": "Codepoint's ESLint config file for modern web development projects",
   "name": "@codepointtku/eslint-config-jsx-eslint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "eslint",
     "eslintconfig"
