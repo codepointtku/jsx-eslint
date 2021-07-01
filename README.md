@@ -17,20 +17,20 @@ $ npm install @codepointtku/eslint-config-jsx-eslint --save-dev
 ```
 
 ## Usage
-**Add** this line to your `.eslintrc`
-```jsonc
-{
-  "extends": "@codepointtku/jsx-eslint"
+**Extend** it to your `.eslintrc.*`, here's a `.js` example
+```js
+module.exports = {
+  extends: [
+    "@codepointtku/jsx-eslint"
+  ] 
 }
 ```
 
-or to `package.json`
+and here's `.json`
 ```jsonc
 {
-  "eslintConfig": {
-    "extends": [
+  "extends": [
     "@codepointtku/jsx-eslint"
-    ]
-  }
+  ]
 }
 ```
