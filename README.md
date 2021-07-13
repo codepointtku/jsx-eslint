@@ -1,6 +1,6 @@
 # Codepoint's tsx/jsx ESLint config
 
-[![npm Release Version](https://img.shields.io/github/v/release/codepointtku/jsx-eslint?logo=npm&style=for-the-badge&labelColor=333333)](https://www.npmjs.com/package/@codepointtku/jsx-eslint)
+[![npm Release Version](https://img.shields.io/github/v/release/codepointtku/jsx-eslint?logo=npm&style=for-the-badge&labelColor=333333)](https://www.npmjs.com/package/@codepointtku/eslint-config-jsx-eslint)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/codepointtku/jsx-eslint/npm%20Publish?logo=githubactions&logoColor=cyan&style=for-the-badge&labelColor=333333)](https://github.com/codepointtku/jsx-eslint/actions/workflows/npm-publish.yml)
 
 *Codepoint's ESLint config file for making code more consistent and avoiding bugs.*
